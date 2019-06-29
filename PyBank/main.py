@@ -3,7 +3,7 @@ import os
 import csv
 
 #Create the csv path
-budget_data = os.path.join("/Users/allison/Desktop/python-challenge/PyBank/budget-data.csv")
+budget_data = os.path.join("PyBank/budget-data.csv")
 
 #Open and read the CSV file
 with open(budget_data, newline = "") as csvfile:
