@@ -4,7 +4,7 @@ import csv
 from statistics import mode
 
 #Create the csv path
-election_data = os.path.join("/Users/allison/Desktop/python-challenge/PyPoll/election_data.csv")
+election_data = os.path.join("PyPoll/election_data.csv")
 
 #Open and read the CSV file
 with open(election_data, newline = "") as csvfile:
